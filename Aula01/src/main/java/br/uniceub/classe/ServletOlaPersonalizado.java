@@ -20,7 +20,7 @@ public class ServletOlaPersonalizado extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter saida = resp.getWriter();
 		saida.write("<HTML><BODY> ");
-		saida.write("Olá!" + req.getParameter("nome") + "***");
+		saida.write("Olá!" + req.getParameter("nome") + "**");
 		saida.write("</BODY></HTML>");
 		saida.close();
 	}
