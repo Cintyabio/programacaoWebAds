@@ -37,7 +37,6 @@ public class ServletDataHora extends HttpServlet {
    	@Override
    	protected void doGet(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter saida = resp.getWriter();
-		
 		saida.write("<HTML><BODY>Olá! ");
 		saida.write("A data e hora atual é: <br>"+format.format(new Date()));
 		saida.write("</BODY></HTML>");
