@@ -7,7 +7,7 @@
 <title>Aula 01</title>
 </head>
 <body>
-	<strong>Aula de hoje!</strong>
-	<h3>Programação Web</h3>
+	<strong>Aula de hoje!!</strong>
+	<h3>ProgramaÃ§Ã£o Web</h3>
 </body>
 </html>
